@@ -18,6 +18,15 @@ end
 #   katz_deli << name
 #   puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
 # end
+customer = 0 
+def take_a_number(katz_deli)
+  
+  customer +=1
+katz_deli << customer
+puts "Welcome you are number #{customer}"
+end
+
+
 
 def now_serving(katz_deli)
   if katz_deli.empty?
